@@ -78,41 +78,12 @@ client.unload = command => {
   });
 };
 
-
-client.on('message', msg => {
-  if (msg.content.toLowerCase() === 'sa') {
-    msg.reply('Cami mi bura orospu çocuğu');
-  }
-});
-
-client.on('message', msg => {
-  if (msg.content.toLowerCase() === 'allah var mı') {
-    msg.reply('allah var diyenin allahını');
-  }
-});
-
-client.on('message', msg => {
-  if (msg.content.toLowerCase() === 'x!efe') {
-    msg.reply('aptal orosbu evladı');
-  }
-});
-
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'selamun aleyküm') {
-    msg.reply('uzun yazınca kaçabileceğini mi sandın orospu çcouğu');
+    msg.reply('Aleyküm Selam');
   }
 });
 
-client.on('message', msg => {
-  if (msg.content.toLowerCase() === '31') {
-    msg.reply('qwe');
-  }
-});
-
-client.on('message', msg => {
-  if (msg.content.toLowerCase() === 'mal')
-   msg.reply('anan mal orospu çocuğu'); 
-});
 client.elevation = message => {
   if(!message.guild) {
 	return; }
